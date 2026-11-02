@@ -1,0 +1,17 @@
+body { font-family: Arial, sans-serif; background: #5d6671; margin: 0; padding: 20px; }
+.wrap { max-width: 700px; margin: auto; }
+h1 { margin-bottom: 20px; color: #fff; }
+.card { background: #fff; padding: 15px; border-radius: 6px; margin-bottom: 15px; box-shadow: 0 1px 3px rgba(0,0,0,.1); }
+input, textarea { width: 100%; padding: 8px; margin-bottom: 8px; border: 1px solid #000000; border-radius: 4px; box-sizing: border-box; }
+textarea { resize: none; }
+button { background: #08b00a; color: #fff; border: 0; padding: 8px 14px; border-radius: 4px; cursor: pointer; }
+button:hover { background: #7ed278; }
+.meta { font-size: 13px; color: #777; }
+.edit { display: inline-block; background: #f0ad4e; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-size: 13px; border: none; cursor: pointer; }
+.del { background: #000000; margin-left: 5px; }
+.del:hover { background: #ff0800; }
+.topbar { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; margin-bottom: 20px;}
+.authinfo { font-size: 14px; color: #fff; display: flex; gap: 10px; align-items: center;}
+.authlink { background: none; border: none; color: #fff; text-decoration: underline; cursor: pointer; font-size: 14px; padding: 0; }
+.authlink:hover { color: #7ed278; background: none; }
+.errormsg { color: #b00000; font-size: 14px; margin-top: 8px; }
